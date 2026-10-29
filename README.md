@@ -1,104 +1,61 @@
-# HTML/CSS/JS
+# HTML Basic Project
 
-## World Wide Web (WWW)
+This repository is a simple HTML learning project created to practice and understand the core concepts of web development using HTML.
 
-It is a system of interlinked documents, system accessed through internet, using web browser.
+## What I built
 
-Websites/Webapps are made up of HTML, CSS, JS.
+I created a small static website with multiple pages that demonstrate basic HTML elements and structure:
 
-## Client-Server Model
+- `index.html` – covers the fundamentals of HTML such as headings, paragraphs, formatting tags, inline elements, block elements, and code examples.
+- `form.html` – demonstrates different form inputs, text fields, email, password, number, date, time, radio buttons, checkboxes, file upload, textarea, select dropdown, and submit/reset buttons.
+- `list.html` – shows ordered and unordered lists, nested lists, and how HTML structures content in a readable way.
+- `table.html` – includes table layout examples with headers, rows, columns, and basic styling.
+- `media.html` – includes image, video, audio, and iframe examples to learn how media content is embedded in web pages.
 
-- **Client**: The browser or app that sends requests to the server.
-- **Server**: The machine that hosts the website/webapp, process the request of the client and sends responses (HTML, CSS, data).
+## Project purpose
 
-<hr/>
+This project was created to learn:
 
-## HTML (Hypertext Markup Language)
+- basic HTML page structure
+- semantic and non-semantic elements
+- text formatting and content organization
+- list and table creation
+- form design and input elements
+- media embedding in web pages
+- how static web pages are built and viewed in a browser
 
-HTML is the standard markup language for creating web pages.
+## Repository structure
 
-### Text formatting elements/tags
+```text
+HTML-Basic-Project/
+├── index.html
+├── form.html
+├── list.html
+├── table.html
+├── media.html
+├── README.md
+└── assets/
+```
 
-1. Headings -> <h1> - <h6>
-2. Paragraph -> <p>
-3. Bold -> <strong>
-4. Italics/Emphasize -> <em>
-5. Superscript -> <sup>
-6. Subscript -> <sub>
-7. Line break -> <br> (Not recommended, instead use CSS)
-8. Divider -> <hr>
-9. <pre>
+## How to run
 
-### List elements
+Open any HTML file in a browser to view the page.
 
-1. Ordered list -> <ol>
-2. Unordered list -> <ul>
+Example:
 
-List item -> <li>
+```bash
+open index.html
+```
 
-### Links, media, iframe
+Or simply open the project folder in a browser or use a VS Code Live Preview extension.
 
-Hyperlink -> <a href="url">Click</a>
+## Technologies used
 
-Image -> <img src="path of image" alt=""/>
+- HTML
+- CSS (basic styling for examples)
+- JavaScript (for basic examples in the learning content)
 
-Video -> <video src="path of video"></video>
+## Summary
 
-Iframe -> <iframe/>
+This repository is a beginner-friendly HTML practice project that demonstrates the basic building blocks of web pages. It helps build a foundation for learning more advanced front-end development in the future.
 
-### Table
-
-<table>
-<tr>
-<td>
-<thead>
-<tbody>
-
-rowspan
-colspan
-
-### Inline & Block elements
-
-Inline: Covers only required width. <a>, <img>, <span>, <video>, <input>
-
-Block: Covers full width. <h1>, <p>, <div>, <section>, <ul>
-
-### Form & input
-
-<form>
-<input>
-<label>
-<textarea>
-<select>
-<option>
-<datalist>
-
-**Attributes**
-
-- type, id, for, name, value, placeholder, required, disabled
-- Number, Range: min, max
-- Text, Password: minlength, maxlength
-- Select: selected
-
-#### Input types
-
-1. text
-2. email
-3. number
-4. password
-5. date
-6. time
-7. date-time-local
-8. range (min, max, step)
-9. color
-10. tel
-11. radio (name)
-12. checkbox
-13. file (accept, multiple)
-14. search
-
-### Semantics
-
-## CSS (Cascading style sheet)
-
-## JS (JavaScript)
